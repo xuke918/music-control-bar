@@ -51,9 +51,7 @@ top: 0;
 }
 
 .time {
-position: relative;
-bottom: 0;
-width: 100%;
+  width: 100%;
 }
 
 .time-bar {
@@ -104,6 +102,7 @@ width: 100%;
   font-size: 1.8rem;
   line-height: 16px;
   list-style-type: none;
+
 }
 
 .control-shuffle {
