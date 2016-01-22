@@ -64,8 +64,8 @@ width: 100%;
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
-  position: absolute;
-  width: 90%;
+  position: relative;
+  width: 100%;
 }
 
 /*
