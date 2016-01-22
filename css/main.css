@@ -43,11 +43,16 @@ body {
 }
 
 .album {
-
+position: absolute;
+width: 15%;
+left: 0;
+top: 0;
 }
 
 .time {
-
+position: relative;
+bottom: 0;
+width: 100%;
 }
 
 .time-bar {
@@ -77,10 +82,14 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
+  left: 100px;
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
+  right: 0;
 }
 
 .controls {
@@ -93,13 +102,19 @@ body {
 }
 
 .control-shuffle {
-
+  position: absolute;
+  left: 100px;
+  top: 10px;
 }
 
 .control-list {
-
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
 
 .control-heart {
-
+  position: absolute;
+  right: 20px;
+  top: 10px;
 }
