@@ -44,10 +44,11 @@ body {
 }
 
 .album {
-position: absolute;
-width: 11%;
-left: 0;
-top: 0;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
 }
 
 .time {
@@ -62,7 +63,9 @@ top: 0;
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
 }
 
@@ -84,8 +87,8 @@ top: 0;
 .time-lapsed {
   font-size: .7rem;
   position: absolute;
-  left: 65px;
-  bottom: 12px;
+  left: 55px;
+  bottom: 10px;
 }
 
 .time-total {
@@ -107,7 +110,7 @@ top: 0;
 
 .control-shuffle {
   position: absolute;
-  left: 65px;
+  left: 55px;
   top: 10px;
 }
 
